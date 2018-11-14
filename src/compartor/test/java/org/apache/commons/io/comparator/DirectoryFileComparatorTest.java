@@ -35,6 +35,7 @@ public class DirectoryFileComparatorTest extends ComparatorAbstractTestCase {
         equalFile2 = new File(currentDir, "src/site/xdoc");
         lessFile   = new File(currentDir, "src");
         moreFile   = new File(currentDir, "pom.xml");
+
     }
 
     /**
