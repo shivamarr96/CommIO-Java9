@@ -14,5 +14,3 @@ site-content
 /.settings/
 
 ### Ignore IntelliJ files
-/.idea/
-*.iml
