@@ -194,7 +194,7 @@ public class FileFilterTestCase {
         final IOFileFilter filter = new DirectoryFileFilter();
 
         assertFiltering(filter, new File("src/"), true);
-        assertFiltering(filter, new File("src/main/java/"), true);
+        assertFiltering(filter, new File("main/java/"), true);
 
         assertFiltering(filter, new File("pom.xml"), false);
 
