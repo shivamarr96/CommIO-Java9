@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0eb5cd23-b30c-482f-9168-430b4859eab3" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/DirectoryWalkerTestCaseJava4.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/DirectoryWalkerTestCaseJava4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/FileUtilsTestCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/FileUtilsTestCase.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/filefilter/FileFilterTestCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/filefilter/FileFilterTestCase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mainIO/test/java/org/apache/commons/io/DirectoryWalkerTestCaseJava4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainIO/test/java/org/apache/commons/io/DirectoryWalkerTestCaseJava4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mainIO/test/java/org/apache/commons/io/FileUtilsTestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainIO/test/java/org/apache/commons/io/FileUtilsTestCase.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,20 +33,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FileFilterTestCase.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FileFilterTestCase.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mainIO/test/java/org/apache/commons/io/filefilter/FileFilterTestCase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="214" column="62" lean-forward="true" selection-start-line="214" selection-start-column="62" selection-end-line="214" selection-end-column="62" />
+            <state relative-caret-position="323">
+              <caret line="222" column="5" lean-forward="true" selection-start-line="222" selection-start-column="5" selection-end-line="222" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FileUtilsTestCase.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FileFileFilter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mainIO/main/java/org/apache/commons/io/filefilter/FileFileFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileUtilsTestCase.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/mainIO/test/java/org/apache/commons/io/FileUtilsTestCase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1806">
-              <caret line="905" column="37" lean-forward="true" selection-start-line="905" selection-start-column="37" selection-end-line="905" selection-end-column="37" />
+            <state relative-caret-position="268">
+              <caret line="3061" column="16" selection-start-line="3061" selection-start-column="16" selection-end-line="3061" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -58,7 +63,7 @@
       <file leaf-file-name="BOMInputStreamTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mainIO/test/java/org/apache/commons/io/input/BOMInputStreamTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
+            <state relative-caret-position="283">
               <caret line="615" selection-start-line="615" selection-end-line="615" />
             </state>
           </provider>
@@ -106,10 +111,10 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-6" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-5" />
     <option name="width" value="1290" />
-    <option name="height" value="1407" />
+    <option name="height" value="1405" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -130,20 +135,28 @@
             <path>
               <item name="commons-io" type="b2602c69:ProjectViewProjectNode" />
               <item name="mainIO" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="commons-io" type="b2602c69:ProjectViewProjectNode" />
               <item name="mainIO" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="commons-io" type="b2602c69:ProjectViewProjectNode" />
               <item name="mainIO" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="io" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="commons-io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mainIO" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
+              <item name="filefilter" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -174,7 +187,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FileFilterTestCase.testFiles">
+  <component name="RunManager" selected="JUnit.All in mainIO (1)">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -195,7 +208,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="All in mainIO (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="All in mainIO" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mainIO" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -203,6 +216,29 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="FileFilterTestCase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mainIO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.apache.commons.io.filefilter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="org.apache.commons.io.filefilter" />
+      <option name="MAIN_CLASS_NAME" value="org.apache.commons.io.filefilter.FileFilterTestCase" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -235,7 +271,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="FileUtilsTestCase.testCompareSizeOf" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FileUtilsTestCase.testIO276" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mainIO" />
       <extension name="coverage">
         <pattern>
@@ -247,30 +283,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="org.apache.commons.io" />
       <option name="MAIN_CLASS_NAME" value="org.apache.commons.io.FileUtilsTestCase" />
-      <option name="METHOD_NAME" value="testCompareSizeOf" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="FileUtilsTestCase.testIncorrectOutputSize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mainIO" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.apache.commons.io.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="org.apache.commons.io" />
-      <option name="MAIN_CLASS_NAME" value="org.apache.commons.io.FileUtilsTestCase" />
-      <option name="METHOD_NAME" value="testIncorrectOutputSize" />
+      <option name="METHOD_NAME" value="testIO276" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -320,19 +333,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.FileUtilsTestCase.testIncorrectOutputSize" />
-      <item itemvalue="JUnit.All in mainIO (1)" />
-      <item itemvalue="JUnit.FileUtilsTestCase.testCompareSizeOf" />
-      <item itemvalue="JUnit.All in mainIO (2)" />
       <item itemvalue="JUnit.FileFilterTestCase.testFiles" />
+      <item itemvalue="JUnit.FileFilterTestCase" />
+      <item itemvalue="JUnit.All in mainIO" />
+      <item itemvalue="JUnit.FileUtilsTestCase.testIO276" />
+      <item itemvalue="JUnit.All in mainIO (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FileFilterTestCase.testFiles" />
-        <item itemvalue="JUnit.All in mainIO (2)" />
-        <item itemvalue="JUnit.FileUtilsTestCase.testCompareSizeOf" />
         <item itemvalue="JUnit.All in mainIO (1)" />
-        <item itemvalue="JUnit.FileUtilsTestCase.testIncorrectOutputSize" />
+        <item itemvalue="JUnit.FileUtilsTestCase.testIO276" />
+        <item itemvalue="JUnit.All in mainIO" />
+        <item itemvalue="JUnit.FileFilterTestCase.testFiles" />
+        <item itemvalue="JUnit.FileFilterTestCase" />
       </list>
     </recent_temporary>
   </component>
@@ -349,7 +362,7 @@
       <workItem from="1542178663754" duration="386000" />
       <workItem from="1542179144313" duration="13000" />
       <workItem from="1542179496632" duration="6000" />
-      <workItem from="1542228788806" duration="5076000" />
+      <workItem from="1542228788806" duration="6967000" />
     </task>
     <task id="LOCAL-00001" summary="fix test cases">
       <created>1542232364714</created>
@@ -365,51 +378,57 @@
       <option name="project" value="LOCAL" />
       <updated>1542232561113</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fix test cases 2">
+      <created>1542233897675</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1542233897675</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DirectoryWalkerTestCaseJava4_testFilterAndLimitB - 2018.11.14 at 13h 58m 56s.xml">
-      <configuration name="DirectoryWalkerTestCaseJava4.testFilterAndLimitB" configurationId="JUnit" />
+    <history-entry file="FileFilterTestCase_testFiles - 2018.11.14 at 14h 49m 35s.xml">
+      <configuration name="FileFilterTestCase.testFiles" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DirectoryWalkerTestCaseJava4_testFilterAndLimitC - 2018.11.14 at 13h 59m 02s.xml">
-      <configuration name="DirectoryWalkerTestCaseJava4.testFilterAndLimitC" configurationId="JUnit" />
+    <history-entry file="FileFilterTestCase_testFiles - 2018.11.14 at 14h 50m 38s.xml">
+      <configuration name="FileFilterTestCase.testFiles" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DirectoryWalkerTestCaseJava4_testFilterAndLimitC - 2018.11.14 at 13h 59m 11s.xml">
-      <configuration name="DirectoryWalkerTestCaseJava4.testFilterAndLimitC" configurationId="JUnit" />
+    <history-entry file="FileFilterTestCase_testFiles - 2018.11.14 at 14h 50m 50s.xml">
+      <configuration name="FileFilterTestCase.testFiles" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_monitor - 2018.11.14 at 13h 59m 34s.xml">
-      <configuration name="All in monitor" configurationId="JUnit" />
+    <history-entry file="FileFilterTestCase_testFiles - 2018.11.14 at 14h 50m 59s.xml">
+      <configuration name="FileFilterTestCase.testFiles" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_mainIO - 2018.11.14 at 14h 00m 11s.xml">
+    <history-entry file="FileFilterTestCase_testFiles - 2018.11.14 at 14h 51m 28s.xml">
+      <configuration name="FileFilterTestCase.testFiles" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_mainIO - 2018.11.14 at 14h 52m 13s.xml">
       <configuration name="All in mainIO" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FileUtilsTestCase_testIncorrectOutputSize - 2018.11.14 at 14h 03m 33s.xml">
-      <configuration name="FileUtilsTestCase.testIncorrectOutputSize" configurationId="JUnit" />
+    <history-entry file="All_in_mainIO - 2018.11.14 at 14h 53m 10s.xml">
+      <configuration name="All in mainIO" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_mainIO_(1) - 2018.11.14 at 14h 04m 16s.xml">
+    <history-entry file="FileUtilsTestCase_testIO276 - 2018.11.14 at 14h 53m 51s.xml">
+      <configuration name="FileUtilsTestCase.testIO276" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FileUtilsTestCase_testIO276 - 2018.11.14 at 14h 54m 06s.xml">
+      <configuration name="FileUtilsTestCase.testIO276" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_mainIO_(1) - 2018.11.14 at 14h 55m 00s.xml">
       <configuration name="All in mainIO (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FileUtilsTestCase_testCompareSizeOf - 2018.11.14 at 14h 04m 45s.xml">
-      <configuration name="FileUtilsTestCase.testCompareSizeOf" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_mainIO_(2) - 2018.11.14 at 14h 05m 34s.xml">
-      <configuration name="All in mainIO (2)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FileFilterTestCase_testFiles - 2018.11.14 at 14h 07m 49s.xml">
-      <configuration name="FileFilterTestCase.testFiles" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5531000" />
+    <option name="totallyTimeSpent" value="7422000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1292" height="692" extended-state="6" />
-    <editor active="true" />
+    <frame x="-5" y="0" width="1290" height="1405" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.3298969" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32945737" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -417,11 +436,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3298969" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30310076" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2511774" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -446,11 +465,12 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fix test cases" />
     <MESSAGE value="fix test cases &#10;removed src" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix test cases &#10;removed src" />
+    <MESSAGE value="fix test cases 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix test cases 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -545,24 +565,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mainIO/test/java/org/apache/commons/io/FileUtilsTestCase.java">
+    <entry file="file://$PROJECT_DIR$/src/mainIO/main/java/org/apache/commons/io/filefilter/FileFileFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1806">
-          <caret line="905" column="37" lean-forward="true" selection-start-line="905" selection-start-column="37" selection-end-line="905" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mainIO/test/java/org/apache/commons/io/input/BOMInputStreamTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="615" selection-start-line="615" selection-end-line="615" />
+        <state relative-caret-position="345">
+          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mainIO/test/java/org/apache/commons/io/filefilter/FileFilterTestCase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="214" column="62" lean-forward="true" selection-start-line="214" selection-start-column="62" selection-end-line="214" selection-end-column="62" />
+        <state relative-caret-position="323">
+          <caret line="222" column="5" lean-forward="true" selection-start-line="222" selection-start-column="5" selection-end-line="222" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainIO/test/java/org/apache/commons/io/input/BOMInputStreamTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="615" selection-start-line="615" selection-end-line="615" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainIO/test/java/org/apache/commons/io/FileUtilsTestCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="3061" column="16" selection-start-line="3061" selection-start-column="16" selection-end-line="3061" selection-end-column="16" />
         </state>
       </provider>
     </entry>
