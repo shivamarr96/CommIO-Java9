@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/src/compartor/compartor.iml" filepath="$PROJECT_DIR$/src/compartor/compartor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/mainIO/mainIO.iml" filepath="$PROJECT_DIR$/src/mainIO/mainIO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/monitor/monitor.iml" filepath="$PROJECT_DIR$/src/monitor/monitor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/serialization/serialization.iml" filepath="$PROJECT_DIR$/src/serialization/serialization.iml" />
+    </modules>
+  </component>
+</project>
