@@ -1,0 +1,3 @@
+module serialization {
+    requires mainIO;
+}
