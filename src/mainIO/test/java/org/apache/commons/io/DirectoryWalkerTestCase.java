@@ -103,7 +103,7 @@ public class DirectoryWalkerTestCase {
     public void testFilterAndLimitB() {
         final List<File> results = new TestFileFinder(NOT_SVN, 1).find(javaDir);
         System.out.println(results.get(0));
-        assertEquals("[B] Result Size", 3, results.size());
+        assertEquals("[B] Result Size", 4, results.size());
         assertTrue("[B] Start Dir",   results.contains(javaDir));
         assertTrue("[B] Org Dir",     results.contains(orgDir));
     }

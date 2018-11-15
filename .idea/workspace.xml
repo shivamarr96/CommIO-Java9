@@ -2,47 +2,446 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0eb5cd23-b30c-482f-9168-430b4859eab3" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/compartor/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/compartor/module-info.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/compartor/org/apache/commons/io/comparator/AbstractFileComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/compartor/org/apache/commons/io/comparator/AbstractFileComparator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/compartor/org/apache/commons/io/comparator/CompositeFileComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/compartor/org/apache/commons/io/comparator/CompositeFileComparator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/compartor/org/apache/commons/io/comparator/DefaultFileComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/compartor/org/apache/commons/io/comparator/DefaultFileComparator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/compartor/org/apache/commons/io/comparator/DirectoryFileComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/compartor/org/apache/commons/io/comparator/DirectoryFileComparator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/compartor/org/apache/commons/io/comparator/ExtensionFileComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/compartor/org/apache/commons/io/comparator/ExtensionFileComparator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/compartor/org/apache/commons/io/comparator/LastModifiedFileComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/compartor/org/apache/commons/io/comparator/LastModifiedFileComparator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/compartor/org/apache/commons/io/comparator/NameFileComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/compartor/org/apache/commons/io/comparator/NameFileComparator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/compartor/org/apache/commons/io/comparator/PathFileComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/compartor/org/apache/commons/io/comparator/PathFileComparator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/compartor/org/apache/commons/io/comparator/ReverseComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/compartor/org/apache/commons/io/comparator/ReverseComparator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/compartor/org/apache/commons/io/comparator/SizeFileComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/compartor/org/apache/commons/io/comparator/SizeFileComparator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/compartor/org/apache/commons/io/comparator/package.html" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/compartor/org/apache/commons/io/comparator/package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/module-info.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/ByteOrderMark.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/ByteOrderMark.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/ByteOrderParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/ByteOrderParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/Charsets.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/Charsets.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/CopyUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/CopyUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/DirectoryWalker$CancelException.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/DirectoryWalker$CancelException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/DirectoryWalker.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/DirectoryWalker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/EndianUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/EndianUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/FileCleaner.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/FileCleaner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/FileCleaningTracker$Reaper.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/FileCleaningTracker$Reaper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/FileCleaningTracker$Tracker.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/FileCleaningTracker$Tracker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/FileCleaningTracker.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/FileCleaningTracker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/FileDeleteStrategy$ForceFileDeleteStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/FileDeleteStrategy$ForceFileDeleteStrategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/FileDeleteStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/FileDeleteStrategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/FileExistsException.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/FileExistsException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/FileSystem.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/FileSystem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/FileSystemUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/FileSystemUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/FileUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/FileUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/FilenameUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/FilenameUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/HexDump.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/HexDump.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/IOCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/IOCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/IOExceptionWithCause.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/IOExceptionWithCause.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/IOUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/IOUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/LineIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/LineIterator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/TaggedIOException.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/TaggedIOException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/ThreadMonitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/ThreadMonitor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/filefilter/AbstractFileFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/filefilter/AbstractFileFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/filefilter/AgeFileFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/filefilter/AgeFileFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/filefilter/AndFileFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/filefilter/AndFileFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/filefilter/CanReadFileFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/filefilter/CanReadFileFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/filefilter/CanWriteFileFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/filefilter/CanWriteFileFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/filefilter/ConditionalFileFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/filefilter/ConditionalFileFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/filefilter/DelegateFileFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/filefilter/DelegateFileFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/filefilter/DirectoryFileFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/filefilter/DirectoryFileFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/filefilter/EmptyFileFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/filefilter/EmptyFileFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/filefilter/FalseFileFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/filefilter/FalseFileFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/filefilter/FileFileFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/filefilter/FileFileFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/filefilter/FileFilterUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/filefilter/FileFilterUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/filefilter/HiddenFileFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/filefilter/HiddenFileFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/filefilter/IOFileFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/filefilter/IOFileFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/filefilter/MagicNumberFileFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/filefilter/MagicNumberFileFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/filefilter/NameFileFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/filefilter/NameFileFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/filefilter/NotFileFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/filefilter/NotFileFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/filefilter/OrFileFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/filefilter/OrFileFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/filefilter/PrefixFileFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/filefilter/PrefixFileFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/filefilter/RegexFileFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/filefilter/RegexFileFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/filefilter/SizeFileFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/filefilter/SizeFileFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/filefilter/SuffixFileFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/filefilter/SuffixFileFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/filefilter/TrueFileFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/filefilter/TrueFileFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/filefilter/WildcardFileFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/filefilter/WildcardFileFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/filefilter/WildcardFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/filefilter/WildcardFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/filefilter/package.html" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/filefilter/package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/AbstractCharacterFilterReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/AbstractCharacterFilterReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/AutoCloseInputStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/AutoCloseInputStream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/BOMInputStream$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/BOMInputStream$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/BOMInputStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/BOMInputStream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/BoundedInputStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/BoundedInputStream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/BoundedReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/BoundedReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/BrokenInputStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/BrokenInputStream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/CharSequenceInputStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/CharSequenceInputStream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/CharSequenceReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/CharSequenceReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/CharacterFilterReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/CharacterFilterReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/CharacterSetFilterReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/CharacterSetFilterReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/ClassLoaderObjectInputStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/ClassLoaderObjectInputStream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/CloseShieldInputStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/CloseShieldInputStream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/ClosedInputStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/ClosedInputStream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/CountingInputStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/CountingInputStream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/DemuxInputStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/DemuxInputStream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/InfiniteCircularInputStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/InfiniteCircularInputStream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/MessageDigestCalculatingInputStream$MessageDigestMaintainingObserver.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/MessageDigestCalculatingInputStream$MessageDigestMaintainingObserver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/MessageDigestCalculatingInputStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/MessageDigestCalculatingInputStream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/NullInputStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/NullInputStream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/NullReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/NullReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/ObservableInputStream$Observer.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/ObservableInputStream$Observer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/ObservableInputStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/ObservableInputStream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/ProxyInputStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/ProxyInputStream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/ProxyReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/ProxyReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/ReaderInputStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/ReaderInputStream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/ReversedLinesFileReader$FilePart.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/ReversedLinesFileReader$FilePart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/ReversedLinesFileReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/ReversedLinesFileReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/SwappedDataInputStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/SwappedDataInputStream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/TaggedInputStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/TaggedInputStream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/Tailer.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/Tailer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/TailerListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/TailerListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/TailerListenerAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/TailerListenerAdapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/TeeInputStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/TeeInputStream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/UnixLineEndingInputStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/UnixLineEndingInputStream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/WindowsLineEndingInputStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/WindowsLineEndingInputStream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/XmlStreamReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/XmlStreamReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/XmlStreamReaderException.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/XmlStreamReaderException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/buffer/CircularBufferInputStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/buffer/CircularBufferInputStream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/buffer/CircularByteBuffer.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/buffer/CircularByteBuffer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/buffer/PeekableInputStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/buffer/PeekableInputStream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/package.html" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/input/package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/output/AppendableOutputStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/output/AppendableOutputStream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/output/BrokenOutputStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/output/BrokenOutputStream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/output/ByteArrayOutputStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/output/ByteArrayOutputStream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/output/ChunkedOutputStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/output/ChunkedOutputStream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/output/ChunkedWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/output/ChunkedWriter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/output/CloseShieldOutputStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/output/CloseShieldOutputStream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/output/ClosedOutputStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/output/ClosedOutputStream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/output/CountingOutputStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/output/CountingOutputStream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/output/DeferredFileOutputStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/output/DeferredFileOutputStream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/output/DemuxOutputStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/output/DemuxOutputStream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/output/FileWriterWithEncoding.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/output/FileWriterWithEncoding.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/output/LockableFileWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/output/LockableFileWriter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/output/NullOutputStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/output/NullOutputStream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/output/NullWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/output/NullWriter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/output/ProxyOutputStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/output/ProxyOutputStream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/output/ProxyWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/output/ProxyWriter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/output/StringBuilderWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/output/StringBuilderWriter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/output/TaggedOutputStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/output/TaggedOutputStream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/output/TeeOutputStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/output/TeeOutputStream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/output/ThresholdingOutputStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/output/ThresholdingOutputStream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/output/WriterOutputStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/output/WriterOutputStream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/output/XmlStreamWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/output/XmlStreamWriter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/output/package.html" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/output/package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/overview.html" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/overview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/package.html" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/mainIO/org/apache/commons/io/package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/monitor/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/monitor/module-info.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/monitor/org/apache/commons/io/monitor/FileAlterationListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/monitor/org/apache/commons/io/monitor/FileAlterationListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/monitor/org/apache/commons/io/monitor/FileAlterationListenerAdaptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/monitor/org/apache/commons/io/monitor/FileAlterationListenerAdaptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/monitor/org/apache/commons/io/monitor/FileAlterationMonitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/monitor/org/apache/commons/io/monitor/FileAlterationMonitor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/monitor/org/apache/commons/io/monitor/FileAlterationObserver.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/monitor/org/apache/commons/io/monitor/FileAlterationObserver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/monitor/org/apache/commons/io/monitor/FileEntry.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/monitor/org/apache/commons/io/monitor/FileEntry.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/monitor/org/apache/commons/io/monitor/package.html" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/monitor/org/apache/commons/io/monitor/package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/serialization/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/serialization/module-info.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/serialization/org/apache/commons/io/serialization/ClassNameMatcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/serialization/org/apache/commons/io/serialization/ClassNameMatcher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/serialization/org/apache/commons/io/serialization/FullClassNameMatcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/serialization/org/apache/commons/io/serialization/FullClassNameMatcher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/serialization/org/apache/commons/io/serialization/RegexpClassNameMatcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/serialization/org/apache/commons/io/serialization/RegexpClassNameMatcher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/serialization/org/apache/commons/io/serialization/ValidatingObjectInputStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/serialization/org/apache/commons/io/serialization/ValidatingObjectInputStream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/serialization/org/apache/commons/io/serialization/WildcardClassNameMatcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/serialization/org/apache/commons/io/serialization/WildcardClassNameMatcher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/serialization/org/apache/commons/io/serialization/package.html" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/serialization/org/apache/commons/io/serialization/package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/compartor/org/apache/commons/io/comparator/ComparatorAbstractTestCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/compartor/org/apache/commons/io/comparator/ComparatorAbstractTestCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/compartor/org/apache/commons/io/comparator/CompositeFileComparatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/compartor/org/apache/commons/io/comparator/CompositeFileComparatorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/compartor/org/apache/commons/io/comparator/DefaultFileComparatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/compartor/org/apache/commons/io/comparator/DefaultFileComparatorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/compartor/org/apache/commons/io/comparator/DirectoryFileComparatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/compartor/org/apache/commons/io/comparator/DirectoryFileComparatorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/compartor/org/apache/commons/io/comparator/ExtensionFileComparatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/compartor/org/apache/commons/io/comparator/ExtensionFileComparatorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/compartor/org/apache/commons/io/comparator/LastModifiedFileComparatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/compartor/org/apache/commons/io/comparator/LastModifiedFileComparatorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/compartor/org/apache/commons/io/comparator/NameFileComparatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/compartor/org/apache/commons/io/comparator/NameFileComparatorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/compartor/org/apache/commons/io/comparator/PathFileComparatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/compartor/org/apache/commons/io/comparator/PathFileComparatorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/compartor/org/apache/commons/io/comparator/SizeFileComparatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/compartor/org/apache/commons/io/comparator/SizeFileComparatorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/ByteOrderMarkTestCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/ByteOrderMarkTestCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/ByteOrderParserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/ByteOrderParserTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/CharsetsTestCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/CharsetsTestCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/CopyUtilsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/CopyUtilsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/DemuxTestCase$ReaderThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/DemuxTestCase$ReaderThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/DemuxTestCase$WriterThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/DemuxTestCase$WriterThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/DemuxTestCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/DemuxTestCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/DirectoryWalkerTestCase$TestCancelWalker.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/DirectoryWalkerTestCase$TestCancelWalker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/DirectoryWalkerTestCase$TestFalseFileFinder.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/DirectoryWalkerTestCase$TestFalseFileFinder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/DirectoryWalkerTestCase$TestFileFinder.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/DirectoryWalkerTestCase$TestFileFinder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/DirectoryWalkerTestCase$TestFileFinderString.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/DirectoryWalkerTestCase$TestFileFinderString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/DirectoryWalkerTestCase$TestMultiThreadCancelWalker.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/DirectoryWalkerTestCase$TestMultiThreadCancelWalker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/DirectoryWalkerTestCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/DirectoryWalkerTestCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/DirectoryWalkerTestCaseJava4$TestCancelWalker.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/DirectoryWalkerTestCaseJava4$TestCancelWalker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/DirectoryWalkerTestCaseJava4$TestFalseFileFinder.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/DirectoryWalkerTestCaseJava4$TestFalseFileFinder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/DirectoryWalkerTestCaseJava4$TestFileFinder.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/DirectoryWalkerTestCaseJava4$TestFileFinder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/DirectoryWalkerTestCaseJava4$TestMultiThreadCancelWalker.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/DirectoryWalkerTestCaseJava4$TestMultiThreadCancelWalker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/DirectoryWalkerTestCaseJava4.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/DirectoryWalkerTestCaseJava4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/EndianUtilsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/EndianUtilsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/FileCleanerTestCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/FileCleanerTestCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/FileCleaningTrackerTestCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/FileCleaningTrackerTestCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/FileDeleteStrategyTestCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/FileDeleteStrategyTestCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/FileSystemTestCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/FileSystemTestCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/FileSystemUtilsTestCase$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/FileSystemUtilsTestCase$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/FileSystemUtilsTestCase$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/FileSystemUtilsTestCase$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/FileSystemUtilsTestCase$MockFileSystemUtils$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/FileSystemUtilsTestCase$MockFileSystemUtils$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/FileSystemUtilsTestCase$MockFileSystemUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/FileSystemUtilsTestCase$MockFileSystemUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/FileSystemUtilsTestCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/FileSystemUtilsTestCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/FileUtilsCleanDirectoryTestCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/FileUtilsCleanDirectoryTestCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/FileUtilsCleanSymlinksTestCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/FileUtilsCleanSymlinksTestCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/FileUtilsCopyToFileTestCase$CheckingInputStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/FileUtilsCopyToFileTestCase$CheckingInputStream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/FileUtilsCopyToFileTestCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/FileUtilsCopyToFileTestCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/FileUtilsDirectoryContainsTestCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/FileUtilsDirectoryContainsTestCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/FileUtilsFileNewerTestCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/FileUtilsFileNewerTestCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/FileUtilsListFilesTestCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/FileUtilsListFilesTestCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/FileUtilsTestCase$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/FileUtilsTestCase$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/FileUtilsTestCase$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/FileUtilsTestCase$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/FileUtilsTestCase$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/FileUtilsTestCase$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/FileUtilsTestCase$ListDirectoryWalker.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/FileUtilsTestCase$ListDirectoryWalker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/FileUtilsTestCase$ShorterFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/FileUtilsTestCase$ShorterFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/FileUtilsTestCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/FileUtilsTestCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/FileUtilsWaitForTestCase$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/FileUtilsWaitForTestCase$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/FileUtilsWaitForTestCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/FileUtilsWaitForTestCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/FilenameUtilsTestCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/FilenameUtilsTestCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/FilenameUtilsWildcardTestCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/FilenameUtilsWildcardTestCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/HexDumpTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/HexDumpTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/IOCaseTestCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/IOCaseTestCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/IOExceptionWithCauseTestCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/IOExceptionWithCauseTestCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/IOUtilsCopyTestCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/IOUtilsCopyTestCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/IOUtilsTestCase$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/IOUtilsTestCase$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/IOUtilsTestCase$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/IOUtilsTestCase$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/IOUtilsTestCase$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/IOUtilsTestCase$11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/IOUtilsTestCase$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/IOUtilsTestCase$12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/IOUtilsTestCase$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/IOUtilsTestCase$13.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/IOUtilsTestCase$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/IOUtilsTestCase$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/IOUtilsTestCase$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/IOUtilsTestCase$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/IOUtilsTestCase$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/IOUtilsTestCase$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/IOUtilsTestCase$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/IOUtilsTestCase$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/IOUtilsTestCase$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/IOUtilsTestCase$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/IOUtilsTestCase$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/IOUtilsTestCase$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/IOUtilsTestCase$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/IOUtilsTestCase$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/IOUtilsTestCase$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/IOUtilsTestCase$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/IOUtilsTestCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/IOUtilsTestCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/IOUtilsWriteTestCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/IOUtilsWriteTestCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/LineIteratorTestCase$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/LineIteratorTestCase$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/LineIteratorTestCase$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/LineIteratorTestCase$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/LineIteratorTestCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/LineIteratorTestCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/SelectorAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/SelectorAdapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/TaggedIOExceptionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/TaggedIOExceptionTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/ThreadMonitorTestCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/ThreadMonitorTestCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/filefilter/AndFileFilterTestCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/filefilter/AndFileFilterTestCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/filefilter/ConditionalFileFilterAbstractTestCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/filefilter/ConditionalFileFilterAbstractTestCase.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/filefilter/FileFilterTestCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/filefilter/FileFilterTestCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/filefilter/IOFileFilterAbstractTestCase$TesterFalseFileFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/filefilter/IOFileFilterAbstractTestCase$TesterFalseFileFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/filefilter/IOFileFilterAbstractTestCase$TesterTrueFileFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/filefilter/IOFileFilterAbstractTestCase$TesterTrueFileFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/filefilter/IOFileFilterAbstractTestCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/filefilter/IOFileFilterAbstractTestCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/filefilter/OrFileFilterTestCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/filefilter/OrFileFilterTestCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/filefilter/RegexFileFilterTestCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/filefilter/RegexFileFilterTestCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/AutoCloseInputStreamTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/AutoCloseInputStreamTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/AutoCloseInputStreamTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/AutoCloseInputStreamTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/BOMInputStreamTest$ExpectCloseInputStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/BOMInputStreamTest$ExpectCloseInputStream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/BOMInputStreamTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/BOMInputStreamTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/BoundedInputStreamTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/BoundedInputStreamTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/BoundedReaderTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/BoundedReaderTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/BoundedReaderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/BoundedReaderTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/BrokenInputStreamTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/BrokenInputStreamTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/CharSequenceInputStreamTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/CharSequenceInputStreamTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/CharSequenceReaderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/CharSequenceReaderTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/CharacterFilterReaderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/CharacterFilterReaderTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/CharacterSetFilterReaderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/CharacterSetFilterReaderTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/ClassLoaderObjectInputStreamTest$E.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/ClassLoaderObjectInputStreamTest$E.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/ClassLoaderObjectInputStreamTest$Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/ClassLoaderObjectInputStreamTest$Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/ClassLoaderObjectInputStreamTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/ClassLoaderObjectInputStreamTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/CloseShieldInputStreamTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/CloseShieldInputStreamTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/CloseShieldInputStreamTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/CloseShieldInputStreamTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/ClosedInputStreamTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/ClosedInputStreamTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/CountingInputStreamTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/CountingInputStreamTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/InfiniteCircularInputStreamTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/InfiniteCircularInputStreamTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/MessageDigestCalculatingInputStreamTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/MessageDigestCalculatingInputStreamTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/NullInputStreamTest$TestNullInputStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/NullInputStreamTest$TestNullInputStream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/NullInputStreamTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/NullInputStreamTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/NullReaderTest$TestNullReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/NullReaderTest$TestNullReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/NullReaderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/NullReaderTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/ObservableInputStreamTest$LastByteKeepingObserver.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/ObservableInputStreamTest$LastByteKeepingObserver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/ObservableInputStreamTest$LastBytesKeepingObserver.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/ObservableInputStreamTest$LastBytesKeepingObserver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/ObservableInputStreamTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/ObservableInputStreamTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/ProxyReaderTest$CustomNullReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/ProxyReaderTest$CustomNullReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/ProxyReaderTest$ProxyReaderImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/ProxyReaderTest$ProxyReaderImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/ProxyReaderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/ProxyReaderTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/ReaderInputStreamTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/ReaderInputStreamTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/ReversedLinesFileReaderTestParamFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/ReversedLinesFileReaderTestParamFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/ReversedLinesFileReaderTestSimple.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/ReversedLinesFileReaderTestSimple.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/SwappedDataInputStreamTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/SwappedDataInputStreamTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/TaggedInputStreamTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/TaggedInputStreamTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/TailerTest$TestTailerListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/TailerTest$TestTailerListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/TailerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/TailerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/TeeInputStreamTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/TeeInputStreamTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/UnixLineEndingInputStreamTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/UnixLineEndingInputStreamTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/WindowsLineEndingInputStreamTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/WindowsLineEndingInputStreamTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/XmlStreamReaderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/XmlStreamReaderTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/XmlStreamReaderUtilitiesTest$MockXmlStreamReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/XmlStreamReaderUtilitiesTest$MockXmlStreamReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/XmlStreamReaderUtilitiesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/XmlStreamReaderUtilitiesTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/buffer/CircularBufferInputStreamTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/buffer/CircularBufferInputStreamTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/compatibility/XmlStreamReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/compatibility/XmlStreamReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/compatibility/XmlStreamReaderException.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/compatibility/XmlStreamReaderException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/compatibility/XmlStreamReaderUtilitiesCompatibilityTest$MockXmlStreamReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/compatibility/XmlStreamReaderUtilitiesCompatibilityTest$MockXmlStreamReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/compatibility/XmlStreamReaderUtilitiesCompatibilityTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/input/compatibility/XmlStreamReaderUtilitiesCompatibilityTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/output/AppendableOutputStreamTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/output/AppendableOutputStreamTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/output/BrokenOutputStreamTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/output/BrokenOutputStreamTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/output/ByteArrayOutputStreamTestCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/output/ByteArrayOutputStreamTestCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/output/ChunkedOutputStreamTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/output/ChunkedOutputStreamTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/output/ChunkedOutputStreamTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/output/ChunkedOutputStreamTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/output/ChunkedWriterTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/output/ChunkedWriterTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/output/ChunkedWriterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/output/ChunkedWriterTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/output/CloseShieldOutputStreamTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/output/CloseShieldOutputStreamTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/output/CloseShieldOutputStreamTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/output/CloseShieldOutputStreamTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/output/ClosedOutputStreamTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/output/ClosedOutputStreamTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/output/CountingOutputStreamTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/output/CountingOutputStreamTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/output/DeferredFileOutputStreamTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/output/DeferredFileOutputStreamTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/output/FileWriterWithEncodingTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/output/FileWriterWithEncodingTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/output/LockableFileWriterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/output/LockableFileWriterTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/output/NullOutputStreamTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/output/NullOutputStreamTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/output/NullWriterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/output/NullWriterTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/output/ProxyOutputStreamTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/output/ProxyOutputStreamTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/output/ProxyOutputStreamTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/output/ProxyOutputStreamTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/output/ProxyWriterTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/output/ProxyWriterTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/output/ProxyWriterTest$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/output/ProxyWriterTest$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/output/ProxyWriterTest$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/output/ProxyWriterTest$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/output/ProxyWriterTest$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/output/ProxyWriterTest$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/output/ProxyWriterTest$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/output/ProxyWriterTest$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/output/ProxyWriterTest$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/output/ProxyWriterTest$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/output/ProxyWriterTest$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/output/ProxyWriterTest$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/output/ProxyWriterTest$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/output/ProxyWriterTest$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/output/ProxyWriterTest$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/output/ProxyWriterTest$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/output/ProxyWriterTest$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/output/ProxyWriterTest$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/output/ProxyWriterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/output/ProxyWriterTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/output/StringBuilderWriterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/output/StringBuilderWriterTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/output/TaggedOutputStreamTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/output/TaggedOutputStreamTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/output/TeeOutputStreamTest$ExceptionOnCloseByteArrayOutputStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/output/TeeOutputStreamTest$ExceptionOnCloseByteArrayOutputStream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/output/TeeOutputStreamTest$RecordCloseByteArrayOutputStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/output/TeeOutputStreamTest$RecordCloseByteArrayOutputStream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/output/TeeOutputStreamTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/output/TeeOutputStreamTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/output/ThresholdingOutputStreamTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/output/ThresholdingOutputStreamTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/output/ThresholdingOutputStreamTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/output/ThresholdingOutputStreamTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/output/WriterOutputStreamTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/output/WriterOutputStreamTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/output/XmlStreamWriterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/output/XmlStreamWriterTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/testtools/SystemDefaults.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/testtools/SystemDefaults.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/testtools/SystemDefaultsSwitch$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/testtools/SystemDefaultsSwitch$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/testtools/SystemDefaultsSwitch.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/testtools/SystemDefaultsSwitch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/testtools/TestUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/testtools/TestUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/testtools/YellOnCloseInputStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/testtools/YellOnCloseInputStream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/testtools/YellOnFlushAndCloseOutputStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/mainIO/org/apache/commons/io/testtools/YellOnFlushAndCloseOutputStream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/monitor/org/apache/commons/io/monitor/AbstractMonitorTestCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/monitor/org/apache/commons/io/monitor/AbstractMonitorTestCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/monitor/org/apache/commons/io/monitor/CollectionFileListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/monitor/org/apache/commons/io/monitor/CollectionFileListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/monitor/org/apache/commons/io/monitor/FileAlterationMonitorTestCase$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/monitor/org/apache/commons/io/monitor/FileAlterationMonitorTestCase$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/monitor/org/apache/commons/io/monitor/FileAlterationMonitorTestCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/monitor/org/apache/commons/io/monitor/FileAlterationMonitorTestCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/monitor/org/apache/commons/io/monitor/FileAlterationObserverTestCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/monitor/org/apache/commons/io/monitor/FileAlterationObserverTestCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/serialization/org/apache/commons/io/serialization/ClosingBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/serialization/org/apache/commons/io/serialization/ClosingBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/serialization/org/apache/commons/io/serialization/FullClassNameMatcherTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/serialization/org/apache/commons/io/serialization/FullClassNameMatcherTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/serialization/org/apache/commons/io/serialization/MockSerializedClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/serialization/org/apache/commons/io/serialization/MockSerializedClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/serialization/org/apache/commons/io/serialization/MoreComplexObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/serialization/org/apache/commons/io/serialization/MoreComplexObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/serialization/org/apache/commons/io/serialization/MoreComplexObjectTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/serialization/org/apache/commons/io/serialization/MoreComplexObjectTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/serialization/org/apache/commons/io/serialization/RegexpClassNameMatcherTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/serialization/org/apache/commons/io/serialization/RegexpClassNameMatcherTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/serialization/org/apache/commons/io/serialization/ValidatingObjectInputStreamTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/serialization/org/apache/commons/io/serialization/ValidatingObjectInputStreamTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/serialization/org/apache/commons/io/serialization/ValidatingObjectInputStreamTest$1CustomVOIS.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/serialization/org/apache/commons/io/serialization/ValidatingObjectInputStreamTest$1CustomVOIS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/serialization/org/apache/commons/io/serialization/ValidatingObjectInputStreamTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/serialization/org/apache/commons/io/serialization/ValidatingObjectInputStreamTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/serialization/org/apache/commons/io/serialization/WildcardClassNameMatcherTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/serialization/org/apache/commons/io/serialization/WildcardClassNameMatcherTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mainIO/test/java/org/apache/commons/io/DirectoryWalkerTestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainIO/test/java/org/apache/commons/io/DirectoryWalkerTestCase.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1388689644">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="iml" value="1" />
+          <entry key="java" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
+    </session>
+  </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="DirectoryWalkerTestCase.java" pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mainIO/test/java/org/apache/commons/io/DirectoryWalkerTestCase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="122" column="5" lean-forward="true" selection-start-line="122" selection-start-column="5" selection-end-line="122" selection-end-column="5" />
+            <state relative-caret-position="14">
+              <caret line="39" column="2" lean-forward="true" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DirectoryWalkerTestCaseJava4.java" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/filefilter/main/java/org/apache/commons/io/filefilter/AgeFileFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="28" column="57" lean-forward="true" selection-start-line="28" selection-start-column="57" selection-end-line="28" selection-end-column="57" />
+              <folding>
+                <element signature="e#0#5526#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mainIO/test/java/org/apache/commons/io/DirectoryWalkerTestCaseJava4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-6032">
+            <state relative-caret-position="1236">
               <caret line="114" column="41" selection-start-line="114" selection-start-column="41" selection-end-line="114" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FileFilterTestCase.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/mainIO/test/java/org/apache/commons/io/filefilter/FileFilterTestCase.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/filefilter/test/java/org/apache/commons/io/filefilter/AndFileFilterTestCase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="222" column="5" lean-forward="true" selection-start-line="222" selection-start-column="5" selection-end-line="222" selection-end-column="5" />
+            <state relative-caret-position="337">
+              <caret line="158" column="21" lean-forward="true" selection-start-line="158" selection-start-column="21" selection-end-line="158" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#10077#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FileFileFilter.java" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mainIO/test/java/org/apache/commons/io/filefilter/FileFilterTestCase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2640">
+              <caret line="222" column="5" selection-start-line="222" selection-start-column="5" selection-end-line="222" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mainIO/main/java/org/apache/commons/io/filefilter/FileFileFilter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
@@ -51,28 +450,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FileUtilsTestCase.java" pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mainIO/test/java/org/apache/commons/io/FileUtilsTestCase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="3061" column="16" selection-start-line="3061" selection-start-column="16" selection-end-line="3061" selection-end-column="16" />
+            <state relative-caret-position="216">
+              <caret line="2615" column="9" selection-start-line="2615" selection-start-column="9" selection-end-line="2615" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BOMInputStreamTest.java" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mainIO/test/java/org/apache/commons/io/input/BOMInputStreamTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
+            <state relative-caret-position="8595">
               <caret line="615" selection-start-line="615" selection-end-line="615" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FileUtils.java" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mainIO/main/java/org/apache/commons/io/FileUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
+            <state relative-caret-position="37350">
               <caret line="2549" selection-start-line="2549" selection-end-line="2549" />
             </state>
           </provider>
@@ -95,10 +494,10 @@
         <option value="$PROJECT_DIR$/src/compartor/test/java/org/apache/commons/io/comparator/CompositeFileComparatorTest.java" />
         <option value="$PROJECT_DIR$/src/monitor/test/java/org/apache/commons/io/monitor/FileAlterationMonitorTestCase.java" />
         <option value="$PROJECT_DIR$/src/compartor/test/java/org/apache/commons/io/comparator/DirectoryFileComparatorTest.java" />
-        <option value="$PROJECT_DIR$/src/mainIO/test/java/org/apache/commons/io/DirectoryWalkerTestCase.java" />
         <option value="$PROJECT_DIR$/src/mainIO/test/java/org/apache/commons/io/DirectoryWalkerTestCaseJava4.java" />
         <option value="$PROJECT_DIR$/src/mainIO/test/java/org/apache/commons/io/FileUtilsTestCase.java" />
         <option value="$PROJECT_DIR$/src/mainIO/test/java/org/apache/commons/io/filefilter/FileFilterTestCase.java" />
+        <option value="$PROJECT_DIR$/src/mainIO/test/java/org/apache/commons/io/DirectoryWalkerTestCase.java" />
       </list>
     </option>
   </component>
@@ -111,10 +510,10 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-5" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="-6" />
     <option name="width" value="1290" />
-    <option name="height" value="1405" />
+    <option name="height" value="1407" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -122,51 +521,90 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="commons-io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mainIO" type="462c0819:PsiDirectoryNode" />
+              <item name="filefilter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="commons-io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mainIO" type="462c0819:PsiDirectoryNode" />
+              <item name="filefilter" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="commons-io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mainIO" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="filefilter" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="commons-io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="filefilter" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="commons-io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mainIO" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="filefilter" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="commons-io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="filefilter" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="commons-io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="filefilter" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+              <item name="commons" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="commons-io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="filefilter" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+              <item name="commons" type="462c0819:PsiDirectoryNode" />
               <item name="io" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="commons-io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mainIO" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="filefilter" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+              <item name="commons" type="462c0819:PsiDirectoryNode" />
               <item name="io" type="462c0819:PsiDirectoryNode" />
               <item name="filefilter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="commons-io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mainIO" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542319848253" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -187,167 +625,55 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in mainIO (1)">
+  <component name="RunManager">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="All in mainIO (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mainIO" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="All in mainIO" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mainIO" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="FileFilterTestCase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mainIO" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.apache.commons.io.filefilter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="org.apache.commons.io.filefilter" />
-      <option name="MAIN_CLASS_NAME" value="org.apache.commons.io.filefilter.FileFilterTestCase" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="FileFilterTestCase.testFiles" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mainIO" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.apache.commons.io.filefilter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="org.apache.commons.io.filefilter" />
-      <option name="MAIN_CLASS_NAME" value="org.apache.commons.io.filefilter.FileFilterTestCase" />
-      <option name="METHOD_NAME" value="testFiles" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="FileUtilsTestCase.testIO276" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mainIO" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.apache.commons.io.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="org.apache.commons.io" />
-      <option name="MAIN_CLASS_NAME" value="org.apache.commons.io.FileUtilsTestCase" />
-      <option name="METHOD_NAME" value="testIO276" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="9" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="directory" />
+      <option name="PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
+        <value defaultName="wholeProject" />
       </option>
-      <patterns />
+      <dir value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="all" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="9" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="directory" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <dir value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <list>
-      <item itemvalue="JUnit.FileFilterTestCase.testFiles" />
-      <item itemvalue="JUnit.FileFilterTestCase" />
-      <item itemvalue="JUnit.All in mainIO" />
-      <item itemvalue="JUnit.FileUtilsTestCase.testIO276" />
-      <item itemvalue="JUnit.All in mainIO (1)" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.All in mainIO (1)" />
-        <item itemvalue="JUnit.FileUtilsTestCase.testIO276" />
-        <item itemvalue="JUnit.All in mainIO" />
-        <item itemvalue="JUnit.FileFilterTestCase.testFiles" />
-        <item itemvalue="JUnit.FileFilterTestCase" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -389,15 +715,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FileFilterTestCase_testFiles - 2018.11.14 at 14h 49m 35s.xml">
-      <configuration name="FileFilterTestCase.testFiles" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FileFilterTestCase_testFiles - 2018.11.14 at 14h 50m 38s.xml">
-      <configuration name="FileFilterTestCase.testFiles" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FileFilterTestCase_testFiles - 2018.11.14 at 14h 50m 50s.xml">
-      <configuration name="FileFilterTestCase.testFiles" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FileFilterTestCase_testFiles - 2018.11.14 at 14h 50m 59s.xml">
       <configuration name="FileFilterTestCase.testFiles" configurationId="JUnit" />
     </history-entry>
@@ -419,41 +736,51 @@
     <history-entry file="All_in_mainIO_(1) - 2018.11.14 at 14h 55m 00s.xml">
       <configuration name="All in mainIO (1)" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_mainIO_(1) - 2018.11.14 at 20h 47m 05s.xml">
+      <configuration name="All in mainIO (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_mainIO_(1) - 2018.11.14 at 20h 49m 48s.xml">
+      <configuration name="All in mainIO (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="all - 2018.11.14 at 21h 00m 21s.xml">
+      <configuration name="all" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="7422000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-5" y="0" width="1290" height="1405" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32945737" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30310076" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2511774" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2274678" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.213253" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32891566" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -467,11 +794,6 @@
     <MESSAGE value="fix test cases &#10;removed src" />
     <MESSAGE value="fix test cases 2" />
     <option name="LAST_COMMIT_MESSAGE" value="fix test cases 2" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="3" />
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/serialization/main/java/module-info.java">
@@ -544,24 +866,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mainIO/test/java/org/apache/commons/io/DirectoryWalkerTestCase.java">
+    <entry file="file://$PROJECT_DIR$/src/mainIO/test/java/org/apache/commons/io/filefilter/FileFilterTestCase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="122" column="5" lean-forward="true" selection-start-line="122" selection-start-column="5" selection-end-line="122" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mainIO/test/java/org/apache/commons/io/DirectoryWalkerTestCaseJava4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6032">
-          <caret line="114" column="41" selection-start-line="114" selection-start-column="41" selection-end-line="114" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mainIO/main/java/org/apache/commons/io/FileUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="2549" selection-start-line="2549" selection-end-line="2549" />
+        <state relative-caret-position="2640">
+          <caret line="222" column="5" selection-start-line="222" selection-start-column="5" selection-end-line="222" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -572,24 +880,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mainIO/test/java/org/apache/commons/io/filefilter/FileFilterTestCase.java">
+    <entry file="file://$PROJECT_DIR$/src/mainIO/test/java/org/apache/commons/io/input/BOMInputStreamTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="222" column="5" lean-forward="true" selection-start-line="222" selection-start-column="5" selection-end-line="222" selection-end-column="5" />
+        <state relative-caret-position="8595">
+          <caret line="615" selection-start-line="615" selection-end-line="615" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mainIO/test/java/org/apache/commons/io/input/BOMInputStreamTest.java">
+    <entry file="file://$PROJECT_DIR$/src/mainIO/main/java/org/apache/commons/io/FileUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="615" selection-start-line="615" selection-end-line="615" />
+        <state relative-caret-position="37350">
+          <caret line="2549" selection-start-line="2549" selection-end-line="2549" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/filefilter/filefilter.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mainIO/test/java/org/apache/commons/io/FileUtilsTestCase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="3061" column="16" selection-start-line="3061" selection-start-column="16" selection-end-line="3061" selection-end-column="16" />
+        <state relative-caret-position="216">
+          <caret line="2615" column="9" selection-start-line="2615" selection-start-column="9" selection-end-line="2615" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/filefilter/main/java/org/apache/commons/io/filefilter/AgeFileFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="28" column="57" lean-forward="true" selection-start-line="28" selection-start-column="57" selection-end-line="28" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#5526#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainIO/test/java/org/apache/commons/io/DirectoryWalkerTestCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="39" column="2" lean-forward="true" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainIO/test/java/org/apache/commons/io/DirectoryWalkerTestCaseJava4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1236">
+          <caret line="114" column="41" selection-start-line="114" selection-start-column="41" selection-end-line="114" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/filefilter/test/java/org/apache/commons/io/filefilter/AndFileFilterTestCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="158" column="21" lean-forward="true" selection-start-line="158" selection-start-column="21" selection-end-line="158" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#10077#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -645,7 +994,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>compartor</last-edited>
+          <last-edited>filefilter</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
